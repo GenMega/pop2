@@ -173,7 +173,7 @@ def main():
         run_sequence()
 
         # Wait between 40 to 50 seconds before the next loop
-        wait_time = random.randint(40, 50)
+        wait_time = random.randint(20, 30)
         print(f"[*] Waiting {wait_time} seconds before next request...")
         time.sleep(wait_time)
 
